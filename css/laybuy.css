@@ -1,0 +1,40 @@
+/* Lay-Buys Payment Gateway Extension For WooCommerce CSS */
+
+
+.customer_report th, .customer_report td {
+border-bottom: 1px solid #CCCCCC;
+font-weight: normal;
+text-align: center;
+}.customer_report th{    border-right: 1px solid #CCCCCC;    font-size: 70%;    font-weight: normal;    text-align: center;    font-weight:bold;}
+
+.customer_report{
+	border: 1px solid #CCCCCC;	margin-top:20px;	float:right;	margin:0 auto;
+}
+.customer_orders th, .customer_orders td {
+	border-bottom: 1px solid #CCCCCC;	
+	font-weight: normal;	
+	padding: 5px 2px;	
+	text-align: center;
+}
+.tablenav-pages{		margin: 1em 0;}
+.customer_orders{
+border: 1px solid #CCCCCC;/*width: 60%;margin-left: 22%;*/font-size: 14px;margin:0 auto;margin-bottom: 10%;
+}#payment_record table th{	border-right: 1px solid #CCCCCC;    font-size: 70%;    font-weight: bold;    text-align: center;}
+#payment_record table {	border: 1px solid #CCCCCC;    float: right;    margin: 0 auto;}
+.lb_center{
+	text-align: center;
+}
+.plan{		float: left;	width:100%;	margin: 10px 10px 20px 10px;}
+#months{	float: left; 	width: 21%;}
+#percent{		float: left; 	width: 15%;}
+.lb_table{		border-bottom: 1px solid gray;	width: 100%;	margin-top:20px;}.lb_thead{		padding: 10px;    text-align: center;}.lb_tr{	border-top: 0 none;	background: none repeat scroll 0 0 #FFFFFF;	text-align: center;}.lb_td{	border-top: 0 none;	background: none repeat scroll 0 0 #FFFFFF;	text-align: center;}.lb_desc{	text-align: center;}#loaded-content{	background: none repeat scroll 0 0 #FFFFFF;	border: 1px solid #CCCCCC;	font-size: 14px;	margin-bottom: 7px;	padding: 10px;}.lb_col{	margin-top:-25px !important;	border-top: 0px !important;	border-radius: 0px !important;	border-collapse: collapse !important;}.lb_method {    margin: 20px 0;}.lb_method span:nth-of-type(1){	text-transform: uppercase;	font-weight: bold;}.lb_method span{	display: inline-block;    padding: 0 0 0 10px;}
+@media screen and (min-width: 200px) and (max-width: 500px) {	
+	.bind{			float: left;	    text-align: left;	    width: 50%;	}	
+	.bind span{		margin-left:0!important;	}	
+	.bind select{		width:auto!important;	}	
+	#payment_record table tr td {
+		font-size:9px;
+	}
+	table.customer_orders{font-size:9px;}
+	table.customer_report{font-size:9px;}
+	}
